@@ -1,0 +1,151 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+* {
+  margin: 0;
+}
+:root {
+  --primary-color: #437ef7;
+  --heading-color: #272d37;
+  --border-color: #eaebf0;
+  --des-color: #5f6d7e;
+  --img-color: #f5faff;
+}
+.header {
+  padding: 29px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header-left {
+  width: 150px;
+}
+.header-left img {
+  width: 100%;
+}
+.header-center {
+  display: flex;
+  gap: 32px;
+}
+.header-center a {
+  color: var(--heading-color);
+  text-decoration: none;
+  font-weight: 700;
+}
+.header-right button:first-child {
+  border: none;
+  color: var(--primary-color);
+}
+.header-right button :last-child {
+  border: none;
+  background-color: #272d37;
+  margin-left: 24px;
+  padding: 12px 18px;
+  color: white;
+  border-radius: 200px;
+}
+/* .img-burger {
+  width: 24px;
+  height: 24px;
+  display: block;
+} */
+.banner {
+  border-top: 1px solid var(--border-color);
+}
+.container-2 {
+  margin-top: 48px;
+}
+.title {
+  font-size: 56px;
+}
+.content {
+  margin-top: 24px;
+  font-size: 18px;
+}
+.button {
+  margin-top: 36px;
+}
+.button-1 {
+  border: none;
+  color: var(--primary-color);
+  margin-left: 24px;
+  padding: 12px 18px;
+  color: white;
+  border-radius: 200px;
+}
+.schannel {
+  text-align: center;
+  margin-top: 64px;
+}
+.heading {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 40px;
+  font-weight: bold;
+  color: var(--heading-color);
+}
+.des {
+  margin: 16px 0 64px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--des-color);
+}
+.channel-bordor {
+  border: 1px solid var(--border-color);
+  padding: 24px 32px;
+  border-radius: 8px;
+}
+.schannel-top-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img {
+  background-color: var(--img-color);
+  padding: 8px;
+  border-radius: 50%;
+  border: 1px solid var(--img-color);
+}
+.button-2 {
+  border: none;
+  background-color: #272d37;
+  margin-left: 24px;
+  padding: 12px 18px;
+  color: white;
+  border-radius: 200px;
+}
+
+/* larga screens and desktops
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+laptop and small
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .header-center,
+  .header-right {
+    display: none;
+  }
+  .img-burger {
+    display: block;
+  }
+}
+
+ipads and tablets
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header-center,
+  .header-right {
+    display: none;
+  }
+  .img-burger {
+    display: block;
+  }
+}
+for mobile devices
+@media screen and (min-width: 320px) and (max-width: 480px) {
+}  */
